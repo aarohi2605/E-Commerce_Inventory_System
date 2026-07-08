@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Grocery Dashboard</h1>
+
+    <div class="menu">
+
+        <a th:href="@{/products}">Products</a>
+
+        <a th:href="@{/categories}">Categories</a>
+
+        <a th:href="@{/login}">Logout</a>
+
+    </div>
+
+</div>
+
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+</html>
